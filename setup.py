@@ -25,7 +25,6 @@ setup(
         "Intended Audience :: Science/Research",
         "Topic :: Software Development :: Libraries :: Python Modules",
         "Topic :: Scientific/Engineering :: Artificial Intelligence",
-        "License :: OSI Approved :: MIT License",
         "Programming Language :: Python :: 3",
         "Programming Language :: Python :: 3.8",
         "Programming Language :: Python :: 3.9",
@@ -47,6 +46,8 @@ setup(
             "flake8",
             "mypy",
             "pre-commit",
+            "build>=1.2.2.post1",
+            "twine>=6.1.0",
         ],
         "examples": [
             "matplotlib>=3.0.0",
